@@ -302,3 +302,21 @@ FormSynthAI is an intelligent synthetic form data generation system designed to 
 ---
 
 *This document serves as the primary reference for FormSynthAI system development and should be updated as requirements evolve.*
+## Quick Start Demo
+
+A small demo script is provided to showcase synthetic form generation using the `formsynth` package.
+
+1. Create a blank form template in the `examples` directory:
+
+```bash
+python examples/create_blank_form.py
+```
+
+2. Generate a filled form based on `sample_config.json`:
+
+```bash
+python -m formsynth.generator examples/sample_config.json output.png
+```
+
+Add `--handwritten` to apply a handwriting-style effect and `--font` to supply a custom TrueType font.
+

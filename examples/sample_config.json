@@ -1,0 +1,10 @@
+{
+  "template_path": "examples/blank_form.png",
+  "fields": {
+    "Full Name": {"x": 100, "y": 60, "font_size": 18},
+    "Address": {"x": 100, "y": 100, "font_size": 18},
+    "Date of Birth": {"x": 100, "y": 140, "font_size": 18},
+    "Email": {"x": 100, "y": 180, "font_size": 18},
+    "Phone": {"x": 100, "y": 220, "font_size": 18}
+  }
+}
